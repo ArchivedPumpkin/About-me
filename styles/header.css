@@ -1,0 +1,49 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  align-items: center;
+  z-index: 100;
+
+}
+
+.left-section{
+  margin-left: 50px;
+  color: white;
+}
+
+.right-section{
+  margin-right: 70px;
+}
+
+.elements{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.home-button,
+.about-me-button,
+.portofolio-button,
+.contact-button{
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+}
+
+.home-button:hover,
+.about-me-button:hover,
+.portofolio-button:hover,
+.contact-button:hover{
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  
+}
